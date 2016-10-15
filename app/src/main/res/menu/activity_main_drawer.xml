@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Cuadernillos">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_amigo"
+                    android:icon="@drawable/blue"
+                    android:title="Amigo" />
+                <item
+                    android:id="@+id/nav_companero"
+                    android:icon="@drawable/red"
+                    android:title="Compañero" />
+                <item
+                    android:id="@+id/nav_explorador"
+                    android:icon="@drawable/green"
+                    android:title="Explorador" />
+                <item
+                    android:id="@+id/nav_orientador"
+                    android:icon="@drawable/gray"
+                    android:title="Orientador" />
+                <item
+                    android:id="@+id/nav_viajero"
+                    android:icon="@drawable/purple"
+                    android:title="Viajero" />
+                <item
+                    android:id="@+id/nav_guia"
+                    android:icon="@drawable/yellow"
+                    android:title="Guía" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Recursos">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
