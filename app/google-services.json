@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "927691017776",
+    "firebase_url": "https://cuadernillos-digitales-nueva.firebaseio.com",
+    "project_id": "cuadernillos-digitales-nueva",
+    "storage_bucket": "cuadernillos-digitales-nueva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927691017776:android:1164e897a9c0201b",
+        "android_client_info": {
+          "package_name": "edu.andrews.cptr252.kevindaniel.cuadernillosdigitalesnuevaversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927691017776-u8nji13v9rh1rqmnes1584gtlvspkv2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.andrews.cptr252.kevindaniel.cuadernillosdigitalesnuevaversion",
+            "certificate_hash": "FD7084F3609C402F43FAD2C7ABAE272A562FD8C7"
+          }
+        },
+        {
+          "client_id": "927691017776-h026hl7rffjh0c36fmefvbqv5v38usit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn2yFCjyY_2O5CuCAtJm6xXsh5KTBRtJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927691017776-h026hl7rffjh0c36fmefvbqv5v38usit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
