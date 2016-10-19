@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(MainActivity.this, LogInActivity.class);
                 intent.putExtra("key", "lol");
                 MainActivity.this.startActivity(intent);
+                Toast.makeText(getApplicationContext(), "Logged out succesfuly", Toast.LENGTH_SHORT).show();
             }
         });
 

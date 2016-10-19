@@ -61,7 +61,7 @@ public class LogInActivity extends AppCompatActivity {
         String password = mPassword.getText().toString();
 
         if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)){
-            Toast.makeText(LogInActivity.this, "Fields are empty", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Fields are empty", Toast.LENGTH_SHORT).show();
 
         }
 
@@ -70,12 +70,12 @@ public class LogInActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(Task<AuthResult> task) {
                     if (!task.isSuccessful()){
-                        Toast.makeText(LogInActivity.this, "Login proiblem", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Login problem", Toast.LENGTH_SHORT).show();
 
                     }
 
                     else {
-                        Toast.makeText(LogInActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(LogInActivity.this, MainActivity.class));
 
                     }

@@ -6,12 +6,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class AmigoFragment extends Fragment {
+
+    private EditText mEditText;
 
 
     public AmigoFragment() {
@@ -23,7 +26,11 @@ public class AmigoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_amigo, container, false);
+        View v = inflater.inflate(R.layout.fragment_amigo,container,false);
+
+        mEditText = (EditText)v.findViewById(R.id.editText);
+
+        return  v;
     }
 
 }
